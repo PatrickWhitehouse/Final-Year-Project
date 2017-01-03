@@ -1,0 +1,117 @@
+
+
+@media (min-width: 768px){
+  p{
+    padding: 0 50px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+  nav span.mobile{
+    display: none;
+  }
+  nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  nav li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: .7em;
+  }
+
+  .wrapper{
+    max-width: 80%;
+  }
+  .work{
+    flex-direction: row;
+  }
+  .work__example{
+    width: 50%;
+    margin: 20px 40px;
+  }
+
+  footer{
+    display: flex;
+  }
+  .footer--left,.footer--middle, .footer--right{
+    width: 33.3%;
+  }
+
+  span.brand{
+    font-size: .75em;
+    width:auto;
+    text-align: left;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    border: none;
+  }
+
+  .team{
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+  .team__member{
+    width: 50%;
+    padding: 20px;
+  }
+  .work--flex{
+    flex-direction: column;
+  }
+
+  .contact{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+
+    &__form{
+      width: 50%;
+      height: 300px;
+      order: 1;
+    }
+    &__details{
+      width: 50%;
+      height: 300px;
+      order: 2;
+    }
+  }
+
+  form{
+    width: 70%;
+  }
+
+}
+@media (min-width: 1000px){
+  .work__recent{
+    width: 50%;
+  }
+
+  .services{
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: $links;
+  }
+  .service{
+    width: 50%;
+    padding: 15px;
+    border-bottom: 1px dashed $white;
+    background-color: $links;
+    color: #222;
+  }
+
+  .service:nth-child(odd){
+    border-right: 1px dashed $white;
+  }
+
+  .service:last-child{
+    border-bottom: none;
+  }
+}

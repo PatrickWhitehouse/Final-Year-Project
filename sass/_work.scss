@@ -1,0 +1,69 @@
+.work{
+  display: flex;
+  flex-direction: column;
+}
+
+.work__example{
+  width: 85%;
+  height: 300px;
+  margin: 10px auto;
+  position: relative;
+  &--left{
+    background-image: url("../img/work-before.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &--right{
+    background-image: url("../img/work-after.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+
+p.work__caption{
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  padding: 20px;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  background-color: rgba(0,0,0,.5);
+  color: $white;
+}
+
+
+.work__recent{
+  width: 100%;
+  height: 200px;
+  padding: 20px 0;
+  margin: 0 auto;
+  position: relative;
+  &:first-child{
+    margin-top: 20px;
+    background-image: url('../img/work-before.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  &:nth-child(2){
+    margin-top: 20px;
+    background-image: url('../img/work-after.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.work__recent > p{
+  position: absolute;
+  top: 0px;
+  right: 0;
+  margin: 0;
+  background-color: #000;
+  color: $white;
+  display: block;
+  min-width: 22%;
+  text-align: center;
+}

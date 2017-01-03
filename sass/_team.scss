@@ -1,0 +1,29 @@
+.team{
+  width: 100%;
+  background-color: $holder;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+
+.team__member{
+  width: 100%;
+  margin-top: 15px;
+}
+
+h3.team__name{
+  font-size: 2em;
+}
+
+img.team__avatar{
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+small.team__position{
+  font-size:1.2em;
+}

@@ -1,0 +1,106 @@
+section.section--lrg{
+  height: 65vh;
+  background-image:linear-gradient(45deg, rgba($links, 0.7), rgba($links, 0.9)),url("../img/kitchen-client-above.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: $body;
+}
+
+section.section--lrg{
+  &--about{
+    background-image:linear-gradient(45deg, rgba($white, 0.7), rgba($white, 0.9)),url("../img/cleaner.jpg");
+  }
+  &--work{
+    background-image:linear-gradient(45deg, rgba($white, 0.7), rgba($white, 0.9)),url("../img/kitchen-client-1.jpg");
+  }
+  &--services{
+    background-image:linear-gradient(45deg, rgba($white, 0.7), rgba($white, 0.9)),url("  https://static.pexels.com/photos/131285/pexels-photo-131285.jpeg");
+  }
+  &--contact{
+    background-image:linear-gradient(45deg, rgba($white, 0.7), rgba($white, 0.9)),url("  https://images.pexels.com/photos/4831/hands-coffee-smartphone-technology.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  }
+}
+
+section.section--info{
+  height: auto;
+  padding: 20px 0px;
+}
+
+section.section--testimonial{
+  height: auto;
+  padding: 20px 0px;
+  background: $body;
+  h2,p{
+    color: $holder;
+  }
+  i{
+    color: $foottext;
+    margin: 10px;
+  }
+}
+
+
+
+h1.section__headline{
+  font-size: 4.5em;
+}
+
+h2.section__headline{
+  font-size: 2.5em;
+  text-align: center;
+  &--left{
+    text-align: left;
+  }
+}
+
+p.section__tagline{
+  font-size: 1.5em;
+  font-family: $font-link;
+  margin-bottom: 40px;
+}
+
+p.section__quote{
+  font-family: $font-link;
+  font-size: 1.4em;
+  margin: 0;
+}
+
+
+a.section__cta{
+  font-size: 1.5em;
+  color: $white;
+  text-decoration: none;
+  border: 2px solid $white;
+  margin-top: 10px;
+  padding: 20px 40px;
+  transition: all ease-in-out .2s;
+  font-family: $font-link;
+  display: inline-block;
+
+  &:hover{
+    color:$links;
+    background-color: $white;
+  }
+}
+
+a.section__btn{
+  font-size: 1.5em;
+  color: $links;
+  text-decoration: none;
+  border: 2px solid $links;
+  margin: 10px 0 40px 0;
+  padding: 20px 40px;
+  transition: all ease-in-out .2s;
+  font-family: $font-link;
+  display: inline-block;
+
+  &:hover{
+    color:$white;
+    background-color: $links;
+  }
+}

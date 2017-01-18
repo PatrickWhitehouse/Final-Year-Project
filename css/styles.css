@@ -127,7 +127,8 @@ section.section--lrg--about {
 section.section--lrg--work {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("../img/kitchen-client-1.jpg"); }
 section.section--lrg--services {
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("  https://static.pexels.com/photos/131285/pexels-photo-131285.jpeg"); }
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("../img/hero-lymm-client.jpg");
+  background-position: top; }
 section.section--lrg--contact {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("  https://images.pexels.com/photos/4831/hands-coffee-smartphone-technology.jpg?w=1260&h=750&auto=compress&cs=tinysrgb"); }
 
@@ -229,15 +230,24 @@ p.work__caption {
   height: 200px;
   padding: 20px 0;
   margin: 0 auto;
-  position: relative; }
+  position: relative;
+  margin-top: 20px; }
   .work__recent:first-child {
-    margin-top: 20px;
     background-image: url("../img/work-before.jpg");
     background-position: center;
     background-size: cover; }
   .work__recent:nth-child(2) {
-    margin-top: 20px;
     background-image: url("../img/work-after.jpg");
+    background-position: center;
+    background-size: cover; }
+  .work__recent:nth-child(4) {
+    background-image: url("../img/kitchen-lymm-1.jpg");
+    background-color: red;
+    background-position: center;
+    background-size: cover; }
+  .work__recent:nth-child(5) {
+    background-image: url("../img/kitchen-lymm-2.jpg");
+    background-color: red;
     background-position: center;
     background-size: cover; }
 

@@ -42,15 +42,26 @@ p.work__caption{
   padding: 20px 0;
   margin: 0 auto;
   position: relative;
+  margin-top: 20px;
   &:first-child{
-    margin-top: 20px;
     background-image: url('../img/work-before.jpg');
     background-position: center;
     background-size: cover;
   }
   &:nth-child(2){
-    margin-top: 20px;
     background-image: url('../img/work-after.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  &:nth-child(4){
+    background-image: url('../img/kitchen-lymm-1.jpg');
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+  }
+  &:nth-child(5){
+    background-image: url('../img/kitchen-lymm-2.jpg');
+    background-color: red;
     background-position: center;
     background-size: cover;
   }

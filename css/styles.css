@@ -130,7 +130,7 @@ section.section--lrg--services {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("../img/hero-lymm-client.jpg");
   background-position: top; }
 section.section--lrg--contact {
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("  https://images.pexels.com/photos/4831/hands-coffee-smartphone-technology.jpg?w=1260&h=750&auto=compress&cs=tinysrgb"); }
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("../img/work-before.jpg"); }
 
 section.section--info {
   height: auto;
@@ -200,19 +200,13 @@ a.section__btn {
 
 .work__example {
   width: 85%;
-  height: 300px;
+  min-height: 200px;
+  max-height: 400px;
   margin: 10px auto;
-  position: relative; }
-  .work__example--left {
-    background-image: url("../img/work-before.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .work__example--right {
-    background-image: url("../img/work-after.jpg");
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat; }
+  position: relative;
+  overflow: hidden; }
+  .work__example img {
+    width: 100%; }
 
 p.work__caption {
   position: absolute;
@@ -400,6 +394,12 @@ footer {
   padding: 20px 0;
   background-color: #CDD7D6;
   color: #2f2f22; }
+  footer a, footer a:active, footer a:link, footer a:visited {
+    color: #2f2f2f;
+    transition: .3s all; }
+  footer a:hover {
+    color: #F87060;
+    transition: .3s all; }
 
 h3.footer__header, p.footer__text {
   font-family: "Varela Round", sans-serif;

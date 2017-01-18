@@ -5,20 +5,13 @@
 
 .work__example{
   width: 85%;
-  height: 300px;
+  min-height: 200px;
+  max-height: 400px;
   margin: 10px auto;
   position: relative;
-  &--left{
-    background-image: url("../img/work-before.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  &--right{
-    background-image: url("../img/work-after.jpg");
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+  overflow: hidden;
+  img{
+    width: 100%;
   }
 }
 

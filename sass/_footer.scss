@@ -4,6 +4,15 @@ footer{
   padding: 20px 0;
   background-color: $holder;
   color: #2f2f22;
+
+  a, a:active, a:link, a:visited{
+    color: #2f2f2f;
+    transition: .3s all;
+  }
+  a:hover{
+    color: $links;
+    transition: .3s all;
+  }
 }
 
 h3.footer__header, p.footer__text{

@@ -58,6 +58,18 @@ p.work__caption{
     background-position: center;
     background-size: cover;
   }
+  &:nth-child(7){
+    background-image: url('../img/living-room-client-before.jpg');
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+  }
+  &:nth-child(8){
+    background-image: url('../img/living-room-client-after.jpg');
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .work__recent > p{

@@ -123,7 +123,7 @@ section.section--lrg {
   color: #102542; }
 
 section.section--lrg--about {
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("../img/cleaner.jpg"); }
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("../img/kitchen-client-2-after.jpg"); }
 section.section--lrg--work {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("../img/kitchen-client-1.jpg"); }
 section.section--lrg--services {
@@ -244,6 +244,16 @@ p.work__caption {
     background-color: red;
     background-position: center;
     background-size: cover; }
+  .work__recent:nth-child(7) {
+    background-image: url("../img/living-room-client-before.jpg");
+    background-color: red;
+    background-position: center;
+    background-size: cover; }
+  .work__recent:nth-child(8) {
+    background-image: url("../img/living-room-client-after.jpg");
+    background-color: red;
+    background-position: center;
+    background-size: cover; }
 
 .work__recent > p {
   position: absolute;
@@ -274,8 +284,8 @@ h3.team__name {
   font-size: 2em; }
 
 img.team__avatar {
-  width: 70px;
-  height: 70px;
+  width: 170px;
+  height: 170px;
   border-radius: 100%;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
@@ -436,6 +446,8 @@ ul.footer__ql {
       font-family: "Varela Round", sans-serif;
       text-decoration: none;
       color: #2f2f22; }
+      ul.footer__ql li a:hover {
+        color: #F87060; }
 
 /* Responsive */
 @media (min-width: 768px) {

@@ -40,3 +40,16 @@ a, a:active, a:visited, a:link{
     padding:0;
   }
 }
+
+
+.skiplink{
+  font-size: 1.9em;
+  position: absolute;
+  left: 20px;
+  top: -9999px;
+
+  &:focus{
+    top:0;
+    outline: 1px solid $body;
+  }
+}

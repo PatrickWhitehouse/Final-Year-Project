@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maid About Town | Maid About Town | Domestic and commercial cleaners based in Cheshire</title>
+  <meta name="description" content="Maid About Town is a domestic and commercial cleaning business based in Cheshire">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Patrick Whitehouse">
+
+  <!-- Social Meta Tags -->
+
+  <meta property="og:title" content="Maid About Town">
+  <meta property="og:description" content="Domestic and commercial cleaners based in Cheshire.">
+  <meta property="og:image" content="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/13532797_10153590673437633_630287254510848792_n.jpg?oh=b68b8e06d3a0f2f9989076e9a15a6ad1&oe=58F17B9C">
+  <meta property="og:url" content="http://maidabouttown.cleaning">
+
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://use.fontawesome.com/7746e608e7.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Navigation -->
+<a href="#content" class="skiplink">Skip navigation</a>
+<header role="banner">
+    <nav role="navigation">
+        <span class="mobile"></span>
+        <span class="brand">Maid About Town</span>
+        <ul role="menu">
+            <li role="menuitem"><a href="index.html" title="Home page"  class="active">Home</a></li>
+            <li role="menuitem"><a href="about.html" title="About Us" >About Us</a></li>
+            <li role="menuitem"><a href="work.html" title="Our Work" >Our Work</a></li>
+            <li role="menuitem"><a href="services.html" title="Services" >Services</a></li>
+            <li role="menuitem"><a href="contact.html" title="Contact Us" >Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Navigation -->
+
+<main role="main" id="content">
+<!-- Hero -->
+
+  <section class="section--lrg">
+    <h1 class="section__headline">
+      Maid About Town
+    </h1>
+    <p class="section__tagline">
+      Domestic and commercial cleaners based in Cheshire
+    </p>
+    <a href="about.html" title="Read more about us" class="section__cta">Find out what we do</a>
+  </section>
+
+  <!-- End Hero -->
+
+  <!-- Who are we -->
+
+  <section class="section--info">
+
+    <h2 class="section__headline">Who are we?</h2>
+
+    <p>Maid About Town is a domestic and commercial cleaning company which is based in Lymm. We offer our various <a href="services.html" title="Our services">different cleaning services</a> all over Cheshire, whether that be a one off clean or arranging a weekly clean, <a href="services.html" title="Our services">we’re here to help you!</a> Our company promise is for our professional cleaners to keep your home clean and tidy, with the highest possible standard of security and effort. Making your house feel like a home.</p>
+
+  </section>
+
+  <!-- End Who are we -->
+
+  <!-- What do we offer -->
+
+  <section class="section--info">
+
+    <h2 class="section__headline">What do we offer?</h2>
+
+    <p>Here at Maid About Town, we offer services that will suit you best. With our wide variety of cleans, we guarantee that we will give you the best cleaning services for yourself, your family and your home.</p>
+
+    <a href="services.html" title="Our Services" class="section__btn">View our services</a>
+
+  </section>
+
+  <!-- End What we offer -->
+
+  <!-- Testimonial -->
+
+  <section class="section--testimonial">
+
+    <h2 class="section__headline">What our customers say</h2>
+
+    <p class="section__quote section__quote--message"></p>
+    <p class="section__quote section__quote--name"></p>
+    <i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star fa-2x" aria-hidden="true"></i><i class="fa fa-star-half-o fa-2x" aria-hidden="true"></i>
+
+  </section>
+
+  <!-- End Testimonial -->
+
+  <!-- Our latest work -->
+
+  <section class="section--info">
+
+    <h2 class="section__headline">Our latest work</h2>
+
+    <p>Take a look at our latest transformations carried out on our own customers.</p>
+
+    <div class="work">
+      <div class="work__example work__example--left">
+        <img src="img/kitchen-lymm-1.jpg" alt="Kitchen area before a clean">
+        <p class="work__caption">Before</p>
+      </div>
+
+      <div class="work__example work__example--right">
+        <img src="img/kitchen-lymm-2.jpg" alt="Kitchen area after a clean">
+        <p class="work__caption">After</p>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- End our latest work -->
+
+  <script type="text/javascript">
+  var data = $.ajax({
+    url: 'https://graph.facebook.com/459176520785857/ratings?access_token=EAACEdEose0cBANrZB9hl2UQ9LsxFtWXZAkGn9VAwBaNrZBWp7zsLFEdaTBY5CBycTBQehKObSDy1khRpSk7Nb2cC2iwEHQ7PrOBkg8NGzsldDRWv13uufqjP0oahZByazVWmV92FKWk6tFpzm4o5kGcCVau4fTLzSoXHA2OyiY8C6T9PC9KDiVSdq9rYoQUZD',
+    dataType: 'json',
+    type: 'get',
+    cache: false,
+    success: function(data){
+
+      var random = Math.floor(Math.random() * data.data.length);
+      var name = data.data[random].reviewer.name;
+      var review = data.data[random].review_text;
+      $('.section__quote--name').html(name);
+      $('.section__quote--message').html(review);
+
+    }
+  });
+  </script>
+
+</main>
+<!-- Footer -->
+
+    <footer role="contentinfo">
+      <div class="footer--left">
+        <h3 class="footer__header">Maid About Town</h3>
+        <p class="footer__text">Domestic and commercial cleaners who provide professional
+and affordable services to those in need</p>
+      </div>
+      <div class="footer--middle">
+        <h3 class="footer__header">Our social media</h3>
+        <ul class="footer__sm">
+          <li><a href="https://www.instagram.com/maidabouttown_/" title="Maid About Town's Instagram"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/Maid-About-Town-Professional-Cleaners-459176520785857/" title="Maid About Town's Facebook page" ><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.twitter.com/maidabouttown_" title="Maid About Town's Twitter profile"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer--right">
+        <h3 class="footer__header">Quick links</h3>
+        <ul class="footer__ql" role="menu">
+            <li role="menuitem"><a href="index.html" title="Home page" class="active">Home</a></li>
+            <li role="menuitem"><a href="about.html" title="About Us">About Us</a></li>
+            <li role="menuitem"><a href="work.html" title="Our Work">Our Work</a></li>
+            <li role="menuitem"><a href="services.html" title="Services">Services</a></li>
+            <li role="menuitem"><a href="contact.html" title="Contact Us">Contact Us</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  <!-- End Footer -->
+
+  <!-- Load Scripts -->
+
+  <script src="js/nav.js" charset="utf-8"></script>
+
+  <!-- End Scripts -->
+</body>
+</html>
+
